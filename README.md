@@ -1,4 +1,7 @@
 # 💤configured LazyVim
 
-git clone https://github.com/LazyVim/starter ~/.config/nvim
+~~~
+git clone https://github.com/pablo-vim/vim-dotfiles ~/.config/nvim
+~~~
+
 
