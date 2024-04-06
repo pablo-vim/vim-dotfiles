@@ -46,9 +46,9 @@ return {
         },
         bashls = {},
         lemminx = {},
-        phpactor = {
-          filetypes = { "php", "blade" },
-        },
+        -- phpactor = {
+        --   filetypes = { "php", "blade" },
+        -- },
         ltex = {
           settings = {
             ltex = {
