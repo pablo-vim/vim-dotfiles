@@ -41,6 +41,7 @@ return {
   { "dhruvasagar/vim-table-mode" },
   { "tree-sitter/tree-sitter-embedded-template" },
   { "RRethy/nvim-treesitter-endwise" },
+  { "APZelos/blamer.nvim" },
   { "dyng/ctrlsf.vim" },
   { "digitaltoad/vim-pug" },
   -- {
