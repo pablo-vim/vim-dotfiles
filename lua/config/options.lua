@@ -10,3 +10,6 @@ require("lazy").setup({
     end,
   },
 })
+-- vim.o.spelllang = "ua_ua, en_us, ru_ru"
+vim.o.linebreak = true
+vim.g.autoformat = false
