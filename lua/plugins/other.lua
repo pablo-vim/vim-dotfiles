@@ -44,6 +44,7 @@ return {
   { "RRethy/nvim-treesitter-endwise" },
   { "APZelos/blamer.nvim" },
   { "dyng/ctrlsf.vim" },
+  { "akinsho/bufferline.nvim", version = "*", dependencies = "nvim-tree/nvim-web-devicons" },
   { "digitaltoad/vim-pug" },
   -- {
   --   "kylechui/nvim-surround",
