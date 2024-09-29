@@ -36,6 +36,7 @@ return {
     end,
   },
   { "slim-template/vim-slim" },
+  { "NvChad/nvim-colorizer.lua" },
   { "tpope/vim-rails" },
   --     use 'slim-template/vim-slim'
   { "dhruvasagar/vim-table-mode" },
