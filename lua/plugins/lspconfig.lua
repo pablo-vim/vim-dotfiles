@@ -1,6 +1,11 @@
 return {
   {
     "neovim/nvim-lspconfig",
+    event = "LazyFile",
+    dependecies = {
+      "mason-nvim",
+      { "williamboman/mason-lspconfig.nvim", config = function() end },
+    },
     opts = {
       inlay_hints = {
         enabled = true,
@@ -56,6 +61,14 @@ return {
             },
           },
         },
+        ruby_lsp = {
+          mason = false,
+          cmd = { vim.fn.expand("~/.asdf/shims/ruby-lsp") },
+        },
+        solargraph = {
+          mason = false,
+        },
+        rubocop = {},
       },
     },
   },
