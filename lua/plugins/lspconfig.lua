@@ -67,8 +67,11 @@ return {
         },
         solargraph = {
           mason = false,
+          enabled = false,
         },
-        rubocop = {},
+        rubocop = {
+          cmd = { "rubocop", "--lsp" },
+        },
       },
     },
   },
