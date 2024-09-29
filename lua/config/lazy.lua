@@ -6,6 +6,8 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
   vim.fn.system({ "git", "clone", "--filter=blob:none", "https://github.com/folke/lazy.nvim.git", "--branch=stable", lazypath })
 end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
+vim.opt.colorcolumn = "120" -- show vertical line
+vim.opt.cursorline = true
 
 require("lazy").setup({
   spec = {
